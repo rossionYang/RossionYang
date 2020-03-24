@@ -403,7 +403,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    539
+                    540
                 </div>
                 
 
@@ -416,12 +416,11 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><p>整个blog搭建过程参考知乎吴润大佬的<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">小白向教程</a>，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。<br>但在安装hexo的时候，执行’’’ npm install -g hexo-cli ‘’’命令可能下载超慢，像我就根本下载不了。这种情况下你就需要用到淘宝源，执行：</p>
-<blockquote>
-<p>‘npm config set registry <a href="https://registry.npm.taobao.org'" target="_blank" rel="noopener">https://registry.npm.taobao.org'</a><br>然后执行’cnpm install hexo-cli -g’安装命令就可以了。<br>此外，还有一点需要注意的是，使用npm命令安装时，需要用管理员身份打开powershell，cd到blog文件夹，不然没有权限。像我的win10家庭版，还没有办法修改防火墙的高级设置，导致后面进行到’hexo s’命令时<br>失败，打开localhost:4000网页也会出现404。</p>
-</blockquote>
+                <h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><p>整个blog搭建过程参考知乎吴润大佬的<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">小白向教程</a>，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。<br>但在安装hexo的时候，执行</p>
+<figure class="highlight plain"><figcaption><span>install -g hexo-cli </span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">命令可能下载超慢，像我就根本下载不了。这种情况下你就需要用到淘宝源，执行：</span><br><span class="line">&gt; ```npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></tbody></table></figure>
+<p>然后执行<code>cnpm install hexo-cli -g</code>安装命令就可以了。<br>此外，还有一点需要注意的是，使用npm命令安装时，需要用管理员身份打开powershell，cd到blog文件夹，不然没有权限。像我的win10家庭版，还没有办法修改防火墙的高级设置，导致后面进行到’hexo s’命令时<br>失败，打开localhost:4000网页也会出现404。</p>
 <h1 id="主题更换"><a href="#主题更换" class="headerlink" title="主题更换"></a>主题更换</h1><p>由于缓存的原因，你在<strong>站点</strong>的_config.yml中更换主题，执行hexo c,g,d命令后，你的博客网站不会马上变成你想要的样子，多等等，或者多刷新几次，喝杯茶，就ok了。hexo有很多<br>不错的<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题</a>，我觉得建立属于自己的个人风格才是最酷的。</p>
-<h1 id="我所遇到的执行错误"><a href="#我所遇到的执行错误" class="headerlink" title="我所遇到的执行错误"></a>我所遇到的执行错误</h1><p>在执行’hexo d’命令时，我总会遇到：<br>‘The file will have its original line endings in your working directory.<br>warning: LF will be replaced by CRLF in index.html.’<br>这个问题其实无伤大雅，只是Linux和win下的表达不同。但是它刷屏就很烦了，这时候你只要在git base中执行：<br>‘git config –global core.autocrlf false’<br>就可以解决问题了。<br>还有需要注意的是，yml文件中的冒号后面一定要<strong>留空格！！！</strong></p>
+<h1 id="我所遇到的执行错误"><a href="#我所遇到的执行错误" class="headerlink" title="我所遇到的执行错误"></a>我所遇到的执行错误</h1><p>在执行<code>hexo d</code>命令时，我总会遇到：<br>‘The file will have its original line endings in your working directory.<br>warning: LF will be replaced by CRLF in index.html.’<br>这个问题其实无伤大雅，只是Linux和win下的表达不同。但是它刷屏就很烦了，这时候你只要在git base中执行：<br>‘git config –global core.autocrlf false’<br>就可以解决问题了。<br>还有需要注意的是，yml文件中的冒号后面一定要<strong>留空格！！！</strong></p>
 <hr>
 <p>最后，这是我自己第一次搭建博客，由于我不是程序员，所以技术方面的内容会很少。分享生活，见证自我成长，才是最快乐的事情。</p>
 <script>
@@ -719,7 +718,8 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            软件安装整个blog搭建过程参考知乎吴润大佬的小白向教程，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。但在安装hexo的时候，执行’’’ npm install -g hexo-cli ‘’
+                            软件安装整个blog搭建过程参考知乎吴润大佬的小白向教程，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。但在安装hexo的时候，执行
+install -g hexo-cli 123```命令可
                         
                     </div>
                     <div class="publish-info">
@@ -773,7 +773,8 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            软件安装整个blog搭建过程参考知乎吴润大佬的小白向教程，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。但在安装hexo的时候，执行’’’ npm install -g hexo-cli ‘’
+                            软件安装整个blog搭建过程参考知乎吴润大佬的小白向教程，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。但在安装hexo的时候，执行
+install -g hexo-cli 123```命令可
                         
                     </div>
                     <div class="publish-info">
@@ -1037,7 +1038,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">539</span>&nbsp;字
+                class="white-color">540</span>&nbsp;字
             
             
             
