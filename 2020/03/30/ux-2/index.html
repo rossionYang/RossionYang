@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="利用hexo搭建博客所走过的坑, 数据分析，心理学，沪漂生活">
+    <meta name="keywords" content="UX学习笔记（二）, 数据分析，心理学，沪漂生活">
     <meta name="description" content="分享奇怪的知识点">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>利用hexo搭建博客所走过的坑 | D东菌的试炼场</title>
+    <title>UX学习笔记（二） | D东菌的试炼场</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -243,12 +243,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">利用hexo搭建博客所走过的坑</h1>
+                    <h1 class="description center-align post-title">UX学习笔记（二）</h1>
                 </div>
             </div>
         </div>
@@ -365,12 +365,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                <span class="chip bg-color">博客搭建</span>
+                            <a href="/tags/coursera/">
+                                <span class="chip bg-color">coursera</span>
                             </a>
                         
-                            <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">
-                                <span class="chip bg-color">经验分享</span>
+                            <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">
+                                <span class="chip bg-color">用户体验</span>
                             </a>
                         
                     </div>
@@ -394,7 +394,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-22
+                    2020-03-30
                 </div>
                 
 
@@ -403,7 +403,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    539
+                    450
                 </div>
                 
 
@@ -416,11 +416,29 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><p>整个blog搭建过程参考知乎吴润大佬的<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">小白向教程</a>，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。<br>但在安装hexo的时候，执行<code>npm install -g hexo-cli</code>命令可能下载超慢，像我就根本下载不了。<br>这种情况下你就需要用到淘宝源，执行<code>npm config set registry https://registry.npm.taobao.org</code>。然后执行<code>cnpm install hexo-cli -g</code>安装命令就可以了。<br>此外，还有一点需要注意的是，使用npm命令安装时，需要用管理员身份打开powershell，cd到blog文件夹，不然没有权限。像我的win10家庭版，还没有办法修改防火墙的高级设置，导致后面进行到’hexo s’命令时<br>失败，打开localhost:4000网页也会出现404。</p>
-<h1 id="主题更换"><a href="#主题更换" class="headerlink" title="主题更换"></a>主题更换</h1><p>由于缓存的原因，你在<strong>站点</strong>的_config.yml中更换主题，执行hexo c,g,d命令后，你的博客网站不会马上变成你想要的样子，多等等，或者多刷新几次，喝杯茶，就ok了。hexo有很多<br>不错的<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题</a>，我觉得建立属于自己的个人风格才是最酷的。</p>
-<h1 id="我所遇到的执行错误"><a href="#我所遇到的执行错误" class="headerlink" title="我所遇到的执行错误"></a>我所遇到的执行错误</h1><p>在执行<code>hexo d</code>命令时，我总会遇到：<br>‘The file will have its original line endings in your working directory.<br>warning: LF will be replaced by CRLF in index.html.’<br>这个问题其实无伤大雅，只是Linux和win下的表达不同。但是它刷屏就很烦了，这时候你只要在git base中执行：<br><code>git config --global core.autocrlf false</code><br>就可以解决问题了。<br>还有需要注意的是，yml文件中的冒号后面一定要<strong>留空格！！！</strong></p>
-<hr>
-<p>最后，这是我自己第一次搭建博客，由于我不是程序员，所以技术方面的内容会很少。分享生活，见证自我成长，才是最快乐的事情。</p>
+                <h1 id="用户体验设计与研究"><a href="#用户体验设计与研究" class="headerlink" title="用户体验设计与研究"></a>用户体验设计与研究</h1><h2 id="迭代过程"><a href="#迭代过程" class="headerlink" title="迭代过程"></a>迭代过程</h2><ol>
+<li>设计(design)：根据创新性的想法提出一种可能的产品或者服务类型</li>
+<li>构建(build)：基于构想设计出一种产品原型(prototype)</li>
+<li>评价(assess)：对产品原型进行检验，思考这种原型是否能够满足人们的需求</li>
+</ol>
+<p><strong>该过程是可循环的，同一个产品需要反复经历该过程，从而厘清用户需求和产品标准</strong></p>
+<h3 id="研究"><a href="#研究" class="headerlink" title="研究"></a>研究</h3><p>UX研究可以包括：访谈、观察、调查、用户测试以及其他检验方法</p>
+<h3 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h3><ol>
+<li>构建用户画像、使用场景以及使用模式</li>
+<li>画草图(sketching)，构思产品</li>
+<li>构建故事板(storyboarding)，描述用户如何进入以及退出产品使用</li>
+<li>完善设计地图 (mapping)，即提供全套的设计路径</li>
+<li>比较竞品</li>
+<li>构建出低中高水平的产品原型，即产品在每个阶段要实现什么样的功能。<h2 id="理解人是如何工作的"><a href="#理解人是如何工作的" class="headerlink" title="理解人是如何工作的"></a>理解人是如何工作的</h2><h3 id="关于人的思考"><a href="#关于人的思考" class="headerlink" title="关于人的思考"></a>关于人的思考</h3></li>
+<li>人如何感知事件或者需求？</li>
+<li>个体平时怎么做这些事的？</li>
+<li>个体做事的时候带有怎样的情绪？<h3 id="UX的四个成分"><a href="#UX的四个成分" class="headerlink" title="UX的四个成分"></a>UX的四个成分</h3></li>
+<li>Value：产品是否有价值，是否比其他的产品更好？</li>
+<li>Usability：用户能够通过产品得到他们想要的东西吗？</li>
+<li>Desirability：产品是否有趣，是否吸引人？</li>
+<li>Adoptability：产品是否很容易上手，也很容易被搜索到？</li>
+</ol>
+<p><strong>总之，UX最基本的方法，是要理解用户，设计原型，在此基础上不断优化</strong></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -464,7 +482,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://www.qdyang.xyz/2020/03/22/blog/">http://www.qdyang.xyz/2020/03/22/blog/</a>
+                    <a href="http://www.qdyang.xyz/2020/03/30/ux-2/">http://www.qdyang.xyz/2020/03/30/ux-2/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -502,12 +520,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                    <span class="chip bg-color">博客搭建</span>
+                                <a href="/tags/coursera/">
+                                    <span class="chip bg-color">coursera</span>
                                 </a>
                             
-                                <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">
-                                    <span class="chip bg-color">经验分享</span>
+                                <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">
+                                    <span class="chip bg-color">用户体验</span>
                                 </a>
                             
                         </div>
@@ -940,22 +958,19 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/03/30/ux-2/">
+                <a href="/2020/03/30/ux/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="UX学习笔记（二）">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="UX学习笔记（一）">
                         
-                        <span class="card-title">UX学习笔记（二）</span>
+                        <span class="card-title">UX学习笔记（一）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            用户体验设计与研究迭代过程
-设计(design)：根据创新性的想法提出一种可能的产品或者服务类型
-构建(build)：基于构想设计出一种产品原型(prototype)
-评价(assess)：对产品原型进行检验，思考这种原型是否能够满足人们的
+                            用户体验是什么？用户体验的含义用户体验是以用户、消费者、产品使用者为中心的，集成研究和设计的学问。从研究出发，用户体验需要探明产品使用者的需求是什么以及人类具有怎样的行为特征，该部分融合了应用心理学，组织行为学等方面的知识；从设计出发，用户
                         
                     </div>
                     <div class="publish-info">
@@ -993,7 +1008,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2020/03/22/blog/">
@@ -1027,7 +1042,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
