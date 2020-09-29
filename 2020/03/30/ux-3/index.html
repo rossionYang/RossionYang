@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="利用hexo搭建博客所走过的坑, 数据分析，心理学，沪漂生活">
+    <meta name="keywords" content="UX学习笔记（三）, 数据分析，心理学，沪漂生活">
     <meta name="description" content="分享奇怪的知识点">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>利用hexo搭建博客所走过的坑 | D东菌的试炼场</title>
+    <title>UX学习笔记（三） | D东菌的试炼场</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -243,12 +243,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">利用hexo搭建博客所走过的坑</h1>
+                    <h1 class="description center-align post-title">UX学习笔记（三）</h1>
                 </div>
             </div>
         </div>
@@ -365,12 +365,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                <span class="chip bg-color">博客搭建</span>
+                            <a href="/tags/coursera/">
+                                <span class="chip bg-color">coursera</span>
                             </a>
                         
-                            <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">
-                                <span class="chip bg-color">经验分享</span>
+                            <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">
+                                <span class="chip bg-color">用户体验</span>
                             </a>
                         
                     </div>
@@ -394,7 +394,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-22
+                    2020-03-30
                 </div>
                 
 
@@ -403,7 +403,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    539
+                    487
                 </div>
                 
 
@@ -416,11 +416,47 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><p>整个blog搭建过程参考知乎吴润大佬的<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">小白向教程</a>，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。<br>但在安装hexo的时候，执行<code>npm install -g hexo-cli</code>命令可能下载超慢，像我就根本下载不了。<br>这种情况下你就需要用到淘宝源，执行<code>npm config set registry https://registry.npm.taobao.org</code>。然后执行<code>cnpm install hexo-cli -g</code>安装命令就可以了。<br>此外，还有一点需要注意的是，使用npm命令安装时，需要用管理员身份打开powershell，cd到blog文件夹，不然没有权限。像我的win10家庭版，还没有办法修改防火墙的高级设置，导致后面进行到’hexo s’命令时<br>失败，打开localhost:4000网页也会出现404。</p>
-<h1 id="主题更换"><a href="#主题更换" class="headerlink" title="主题更换"></a>主题更换</h1><p>由于缓存的原因，你在<strong>站点</strong>的_config.yml中更换主题，执行hexo c,g,d命令后，你的博客网站不会马上变成你想要的样子，多等等，或者多刷新几次，喝杯茶，就ok了。hexo有很多<br>不错的<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题</a>，我觉得建立属于自己的个人风格才是最酷的。</p>
-<h1 id="我所遇到的执行错误"><a href="#我所遇到的执行错误" class="headerlink" title="我所遇到的执行错误"></a>我所遇到的执行错误</h1><p>在执行<code>hexo d</code>命令时，我总会遇到：<br>‘The file will have its original line endings in your working directory.<br>warning: LF will be replaced by CRLF in index.html.’<br>这个问题其实无伤大雅，只是Linux和win下的表达不同。但是它刷屏就很烦了，这时候你只要在git base中执行：<br><code>git config --global core.autocrlf false</code><br>就可以解决问题了。<br>还有需要注意的是，yml文件中的冒号后面一定要<strong>留空格！！！</strong></p>
+                <h1 id="用户体验设计与研究"><a href="#用户体验设计与研究" class="headerlink" title="用户体验设计与研究"></a>用户体验设计与研究</h1><h2 id="UX设计概述"><a href="#UX设计概述" class="headerlink" title="UX设计概述"></a>UX设计概述</h2><ol>
+<li>元素(element):如网页的按钮、图标；工艺品的木材、皮革等。</li>
+<li>规划(plan)</li>
+<li>目的(purpose)</li>
+</ol>
+<p><strong>结合元素进行规划，达成设计目标，从而解决关键问题</strong></p>
+<h2 id="设计流程"><a href="#设计流程" class="headerlink" title="设计流程"></a>设计流程</h2><ol>
+<li>理解研究问题</li>
+<li>形成可能的解决方案</li>
+<li>分析并选择最佳的手段</li>
+<li>嵌入解决方案(embody solution)：构建<strong>原型</strong></li>
+<li>评价(评价当前方案的同时可能产生新的问题，因此需要构建新的解决办法)<h2 id="为什么需要原型"><a href="#为什么需要原型" class="headerlink" title="为什么需要原型"></a>为什么需要原型</h2></li>
+<li>具象化(reification)</li>
+<li>映像化(reflection)</li>
+<li>方便沟通(communication)</li>
+<li>评价(assessment)<h3 id="原型迭代的作用"><a href="#原型迭代的作用" class="headerlink" title="原型迭代的作用"></a>原型迭代的作用</h3>通过不断地迭代初始原型，逐渐提升产品的保真度(fidelity)</li>
+</ol>
+<ul>
+<li>早期产品迭代：注重功能性和任务覆盖的完整性</li>
+<li>后期产品迭代：增加细节内容 </li>
+</ul>
 <hr>
-<p>最后，这是我自己第一次搭建博客，由于我不是程序员，所以技术方面的内容会很少。分享生活，见证自我成长，才是最快乐的事情。</p>
+<p>前文指出，构建原型之前，需要对产品有总体认识，这种意象可以通过简单的草图予以表达。因此，构建好的草图是研究的第一步。</p>
+<h2 id="草图-sketch"><a href="#草图-sketch" class="headerlink" title="草图(sketch)"></a>草图(sketch)</h2><ol>
+<li>快速的(quick)</li>
+<li>及时的(timely)</li>
+<li>便利的(inexpensive)</li>
+<li>自由处理的(disposable)</li>
+<li>丰富的(plentiful)</li>
+<li>忽略细节(minimal detail)</li>
+<li>具有模糊性(allow ambiguity)<h3 id="如何做草图"><a href="#如何做草图" class="headerlink" title="如何做草图"></a>如何做草图</h3></li>
+</ol>
+<ul>
+<li>工具：白板、纸和笔</li>
+<li>快速完成</li>
+<li>不追求完美</li>
+<li>制作大量的草图</li>
+<li><em>不必为了美观而美观，差不多就行啦！*</em><h2 id="草图-amp-原型"><a href="#草图-amp-原型" class="headerlink" title="草图&amp;原型"></a>草图&amp;原型</h2>| Sketch      | prototype|<br>| evocative   | ditactic |<br>| suggest     | describe |<br>| explore     | refine   |<br>| question    | answer   |<br>| propose     | test     |<br>| provoke     | resolve  |<br>| tentative   | specific |<br>| noncommittal| depiction|</li>
+</ul>
+<hr>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p><strong>在画草图和构建原型的阶段，一个好的idea也可能转变为一个bad idea，这取决于你对草稿的反思和评价。所以，不要执着于一开始就构建出完美的产品。</strong></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -464,7 +500,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://www.qdyang.xyz/2020/03/22/blog/">http://www.qdyang.xyz/2020/03/22/blog/</a>
+                    <a href="http://www.qdyang.xyz/2020/03/30/ux-3/">http://www.qdyang.xyz/2020/03/30/ux-3/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -502,12 +538,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                    <span class="chip bg-color">博客搭建</span>
+                                <a href="/tags/coursera/">
+                                    <span class="chip bg-color">coursera</span>
                                 </a>
                             
-                                <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">
-                                    <span class="chip bg-color">经验分享</span>
+                                <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">
+                                    <span class="chip bg-color">用户体验</span>
                                 </a>
                             
                         </div>
@@ -940,28 +976,22 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/03/30/ux-3/">
+                <a href="/2020/03/30/ux-2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="UX学习笔记（三）">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="UX学习笔记（二）">
                         
-                        <span class="card-title">UX学习笔记（三）</span>
+                        <span class="card-title">UX学习笔记（二）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            用户体验设计与研究UX设计概述
-元素(element):如网页的按钮、图标；工艺品的木材、皮革等。
-规划(plan)
-目的(purpose)
-
-结合元素进行规划，达成设计目标，从而解决关键问题
-设计流程
-理解研究问题
-形成可能的解决方案
-分
+                            用户体验设计与研究迭代过程
+设计(design)：根据创新性的想法提出一种可能的产品或者服务类型
+构建(build)：基于构想设计出一种产品原型(prototype)
+评价(assess)：对产品原型进行检验，思考这种原型是否能够满足人们的
                         
                     </div>
                     <div class="publish-info">
@@ -999,7 +1029,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2020/03/22/blog/">
@@ -1033,7 +1063,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
