@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="利用hexo搭建博客所走过的坑, 数据分析，心理学，沪漂生活">
+    <meta name="keywords" content="UX学习笔记（四）, 数据分析，心理学，沪漂生活">
     <meta name="description" content="分享奇怪的知识点">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>利用hexo搭建博客所走过的坑 | D东菌的试炼场</title>
+    <title>UX学习笔记（四） | D东菌的试炼场</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -243,12 +243,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">利用hexo搭建博客所走过的坑</h1>
+                    <h1 class="description center-align post-title">UX学习笔记（四）</h1>
                 </div>
             </div>
         </div>
@@ -365,12 +365,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                <span class="chip bg-color">博客搭建</span>
+                            <a href="/tags/coursera/">
+                                <span class="chip bg-color">coursera</span>
                             </a>
                         
-                            <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">
-                                <span class="chip bg-color">经验分享</span>
+                            <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">
+                                <span class="chip bg-color">用户体验</span>
                             </a>
                         
                     </div>
@@ -394,7 +394,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-22
+                    2020-10-02
                 </div>
                 
 
@@ -403,7 +403,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    539
+                    949
                 </div>
                 
 
@@ -416,11 +416,45 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><p>整个blog搭建过程参考知乎吴润大佬的<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">小白向教程</a>，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。<br>但在安装hexo的时候，执行<code>npm install -g hexo-cli</code>命令可能下载超慢，像我就根本下载不了。<br>这种情况下你就需要用到淘宝源，执行<code>npm config set registry https://registry.npm.taobao.org</code>。然后执行<code>cnpm install hexo-cli -g</code>安装命令就可以了。<br>此外，还有一点需要注意的是，使用npm命令安装时，需要用管理员身份打开powershell，cd到blog文件夹，不然没有权限。像我的win10家庭版，还没有办法修改防火墙的高级设置，导致后面进行到’hexo s’命令时<br>失败，打开localhost:4000网页也会出现404。</p>
-<h1 id="主题更换"><a href="#主题更换" class="headerlink" title="主题更换"></a>主题更换</h1><p>由于缓存的原因，你在<strong>站点</strong>的_config.yml中更换主题，执行hexo c,g,d命令后，你的博客网站不会马上变成你想要的样子，多等等，或者多刷新几次，喝杯茶，就ok了。hexo有很多<br>不错的<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题</a>，我觉得建立属于自己的个人风格才是最酷的。</p>
-<h1 id="我所遇到的执行错误"><a href="#我所遇到的执行错误" class="headerlink" title="我所遇到的执行错误"></a>我所遇到的执行错误</h1><p>在执行<code>hexo d</code>命令时，我总会遇到：<br>‘The file will have its original line endings in your working directory.<br>warning: LF will be replaced by CRLF in index.html.’<br>这个问题其实无伤大雅，只是Linux和win下的表达不同。但是它刷屏就很烦了，这时候你只要在git base中执行：<br><code>git config --global core.autocrlf false</code><br>就可以解决问题了。<br>还有需要注意的是，yml文件中的冒号后面一定要<strong>留空格！！！</strong></p>
+                <h1 id="用户体验设计与研究"><a href="#用户体验设计与研究" class="headerlink" title="用户体验设计与研究"></a>用户体验设计与研究</h1><h2 id="UX的发展历史"><a href="#UX的发展历史" class="headerlink" title="UX的发展历史"></a>UX的发展历史</h2><ul>
+<li>用户体验研究的发展史，也是人机交互心理学的发展历史。1983年，人机交互研究兴起, CHI(Computer Human Interaction) conference为主的顶级会议逐渐在全是些范围内展开。</li>
+<li>1988年，”WWW”万维网产生，人们可以在互联网上搜索并分享大量的信息</li>
+<li>1995年，互联网商业模式产生，各种基于互联网的产品和平台层出不穷(08年中国的淘宝和天猫开始发迹)</li>
+<li><em>因此，在1980年代，交互设计成为一项引人入胜的课题，数字生活会成为人类日常生活中不可缺少的重要部分。人如何与机器交流以及机器如何根据人的行为作出反应，这些内容具有巨大的商业价值*</em></li>
+<li>1970~2014年，仅仅44年，移动手机的市场持有率从0%上升至90%，成为了最便捷的互联网工具，新的交互时代到来。</li>
+<li>原有的各种网页(site)开始以新的应用(App)形式存在，如何掌握个体在移动互联网时代的用户习惯，作出有别于传统互联网交互的设计内容，成为新时代的发展方向。</li>
+</ul>
 <hr>
-<p>最后，这是我自己第一次搭建博客，由于我不是程序员，所以技术方面的内容会很少。分享生活，见证自我成长，才是最快乐的事情。</p>
+<h2 id="人如何感知信息？"><a href="#人如何感知信息？" class="headerlink" title="人如何感知信息？"></a>人如何感知信息？</h2><h3 id="一、视觉搜索-human-visual-system"><a href="#一、视觉搜索-human-visual-system" class="headerlink" title="一、视觉搜索(human visual system)"></a>一、视觉搜索(human visual system)</h3><ul>
+<li>在人与网站或者产品的交互过程中，视觉搜索是最主要的信息收集方式。人们通过浏览网页，APP，寻找到自己需要的内容或产品，进而采取其他的行为(如：购买，订阅或推荐)。</li>
+<li>在视觉搜索的过程中，如果产品设计很糟糕(如：需要额外的点击去获得必要的信息，努力去寻找重要的icon)，用户需要耗费大量的认知资源去处理各种垃圾信息，则会令人厌烦，焦虑，降低用户体验。</li>
+<li>因此,在感知信息方面，用户研究的一个重点就是提升关键信息的显著性*</li>
+<li>其中，有两个方面需要重点关注：</li>
+</ul>
+<ol>
+<li>特征提取：颜色、深浅、角度、斜率、长度、排列</li>
+<li>模式分类： 相同类、不同类</li>
+</ol>
+<p><strong>在此过程中，原始特征是吸引注意力的重要因素，再利用格式塔原则将原始特征组合成最理想的单个项目</strong></p>
+<h3 id="二、记忆-Memory"><a href="#二、记忆-Memory" class="headerlink" title="二、记忆(Memory)"></a>二、记忆(Memory)</h3><ul>
+<li>信息通过感知进入大脑，其中部分信息会进入短时记忆系统，在经过筛选进入长时记忆系统。</li>
+<li>因此，有效的交互需要利用这种记忆过程，让用户将重要信息保存在长时记忆当中*</li>
+<li>进入长时记忆最主要的方法：复述！</li>
+</ul>
+<ol>
+<li>关联强度(strength of association)</li>
+<li>新颖(recency)</li>
+<li>反复(frequency)</li>
+</ol>
+<ul>
+<li>在交互设计过程中，通过各种方式将关键信息不断呈现给用户，从而帮助用户保留信息，形成记忆。</li>
+<li>在交互设计中，有许多有效的方法，比如：</li>
+</ul>
+<ol>
+<li>隐喻：通过一些形象地表述帮助用户熟悉特定场景的功能使用。如：利用小推车icon表达购物车。</li>
+<li>利用一致性或规范：设立标准规范或操作方式帮助用户记忆使用方式。如：word的工具栏，每个功能的位置等。</li>
+</ol>
+<p><strong>了解用户感知信息和记忆的过程，将极大地加强我们对用户如何使用产品的理解，也将真正有助于提升用户的使用体验。</strong></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -464,7 +498,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://www.qdyang.xyz/2020/03/22/blog/">http://www.qdyang.xyz/2020/03/22/blog/</a>
+                    <a href="http://www.qdyang.xyz/2020/10/02/ux-4/">http://www.qdyang.xyz/2020/10/02/ux-4/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -502,12 +536,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                    <span class="chip bg-color">博客搭建</span>
+                                <a href="/tags/coursera/">
+                                    <span class="chip bg-color">coursera</span>
                                 </a>
                             
-                                <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">
-                                    <span class="chip bg-color">经验分享</span>
+                                <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">
+                                    <span class="chip bg-color">用户体验</span>
                                 </a>
                             
                         </div>
@@ -936,32 +970,94 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/03/30/ux-2/">
+                <a href="/2020/10/02/ux-4/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="UX学习笔记（二）">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="UX学习笔记（四）">
                         
-                        <span class="card-title">UX学习笔记（二）</span>
+                        <span class="card-title">UX学习笔记（四）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            用户体验设计与研究迭代过程
-设计(design)：根据创新性的想法提出一种可能的产品或者服务类型
-构建(build)：基于构想设计出一种产品原型(prototype)
-评价(assess)：对产品原型进行检验，思考这种原型是否能够满足人们的
+                            用户体验设计与研究UX的发展历史
+用户体验研究的发展史，也是人机交互心理学的发展历史。1983年，人机交互研究兴起, CHI(Computer Human Interaction) conference为主的顶级会议逐渐在全是些范围内展开。
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-30
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%88%90%E9%95%BF/" class="post-category">
+                                    技术成长
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/coursera/">
+                        <span class="chip bg-color">coursera</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">
+                        <span class="chip bg-color">用户体验</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/09/29/ux-3/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="UX学习笔记（三）">
+                        
+                        <span class="card-title">UX学习笔记（三）</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            用户体验设计与研究UX设计概述
+元素(element):如网页的按钮、图标；工艺品的木材、皮革等。
+规划(plan)
+目的(purpose)
+
+结合元素进行规划，达成设计目标，从而解决关键问题
+设计流程
+理解研究问题
+形成可能的解决方案
+分
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-29
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -983,60 +1079,6 @@
                     
                     <a href="/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/">
                         <span class="chip bg-color">用户体验</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/03/22/blog/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="利用hexo搭建博客所走过的坑">
-                        
-                        <span class="card-title">利用hexo搭建博客所走过的坑</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            软件安装整个blog搭建过程参考知乎吴润大佬的小白向教程，由于我在搭建blog之前就安装了node，拥有github账号，所以部分安装过程没有出现问题。但在安装hexo的时候，执行npm install -g hexo-cli命令可能下载超
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-22
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%88%90%E9%95%BF/" class="post-category">
-                                    技术成长
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">博客搭建</span>
-                    </a>
-                    
-                    <a href="/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">
-                        <span class="chip bg-color">经验分享</span>
                     </a>
                     
                 </div>
